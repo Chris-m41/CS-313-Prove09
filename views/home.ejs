@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<h1>This is the home page in the public directory</h1>
+	<h2>Welcome <%= username %>, your email address is: <%= email %></h2>
+    <!-- <form action="/action_page.php">
+        <label for="weight">Weight(In oz.):</label><br>
+        <input type="text" id="weight" name="weight" value="ex. 23"><br>
+
+        <input type="radio" id="stamped" name="letter" value="stamped">
+        <label for="stamped">Letter(Stamped)</label><br>
+        <input type="radio" id="metered" name="letter" value="metered">
+        <label for="metered">Letter(Metered)</label><br>
+        <input type="radio" id="flats" name="letter" value="flats">
+        <label for="flats">Large Envelops(Flats)</label><br>
+        <input type="radio" id="retail" name="letter" value="retail">
+		<label for="retail">First-Class Package Service—Retail</label>
+		<input type="submit" value="Submit">
+	  </form>  -->
+	  <form method="POST" action="/submit-form">
+		<input type="text" name="username" />
+		<input type="submit" />
+	  </form>
+</body>
+</html>
